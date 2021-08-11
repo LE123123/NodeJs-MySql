@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>espritier 실습 - 이벤트 경험</title>
+
+    <script>
+        window.onload = () => {
+            document.getElementById('colorW').onclick = () => {
+                document.bgColor = "white"
+            }
+            document.getElementById('colorG').onclick = () => {
+                document.bgColor = "#00ff00"
+            }
+            document.getElementById('colorR').onclick = () => {
+                document.bgColor = "rgb(100%, 0%, 0%)"
+            }
+        }    
+    </script>
+
+
+
+</head>
+
+<body>
+    <input type="button" value="흰색" id="colorW">
+    <input type="button" value="녹색" id="colorG">
+    <input type="button" value="적색" id="colorR">
+</body>
+</html>
